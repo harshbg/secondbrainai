@@ -112,6 +112,9 @@ def extract_entities(text):
 df_highlights['entities'] = df_highlights['text'].apply(extract_entities)
 
 
+```
+
+
 ---
 
 ## ✨ Features
