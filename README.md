@@ -67,3 +67,72 @@ The project leverages the following technologies and tools:
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/yourusername/second-brain-ai.git
+
+
+
+
+---
+
+## 📊 Process
+
+### 1. **Data Collection**:
+   The highlights are sourced from Google Docs using the Google Docs API, allowing easy import of reading highlights, or uploaded manually into the system.
+
+### 2. **Data Preprocessing**:
+   The raw text highlights undergo preprocessing using:
+   - SpaCy for text cleaning and Named Entity Recognition (NER).
+   - Custom functions to clean and standardize the text.
+
+### 3. **Querying with LlamaIndex**:
+   The LlamaIndex Query Engine is used to efficiently search through the document highlights. 
+   It helps retrieve the most relevant information using text-based searches for research papers, summaries, or essays.
+
+### 4. **Generating Summaries and Essays**:
+   Based on the user's input, the system generates:
+   - Summaries of specific topics within the text.
+   - Custom essays using the processed highlights, following the user's preferences in style and length.
+
+### 5. **User Feedback Integration**:
+   After generating responses (highlights, summaries, essays), users can provide feedback. This feedback loop helps refine future responses.
+
+---
+
+## 🖥️ Code Examples
+
+### Extracting Named Entities:
+```python
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+
+def extract_entities(text):
+    doc = nlp(text)
+    return [(ent.text, ent.label_) for ent in doc.ents]
+
+df_highlights['entities'] = df_highlights['text'].apply(extract_entities)
+
+
+---
+
+## ✨ Features
+
+- Pull and preprocess Google Docs highlights.
+- Efficient searching and summarizing of text using LlamaIndex.
+- Generate research papers and essays based on user inputs.
+- User feedback integration for refining results.
+- Multiple essay types (research, editorial, etc.) with configurable word limits.
+- Customizable output formats (bullet points, plain text, etc.).
+
+---
+
+## 🚧 Status
+
+This project is currently in development. New features like direct export to Word and integration with other knowledge management tools are planned.
+
+---
+
+## 📧 Contact
+
+Created by [Harsh Gupta](https://www.linkedin.com/in/harshgupta). Feel free to contact me for any questions or collaboration opportunities.
+
+   
