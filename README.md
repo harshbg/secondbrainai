@@ -32,14 +32,12 @@ The project was demoed during the Rag-A-Thon, focusing on leveraging Agentic RAG
 ## 📸 Screenshots
 Here are some visuals from the project.
 
-1. **Dashboard Interface**  
-   ![Dashboard](https://via.placeholder.com/600x300)
    
-2. **Research Highlights Tab**  
-   ![Research Highlights](./img/SummarySBAI.PNG)
+1. **Research Highlights Tab**  
+   ![Research Highlights](./img/Summary.png)
    
-3. **Essay Generation Tab**  
-   ![Essay Generator](https://via.placeholder.com/600x300)
+2. **Essay Generation Tab**  
+   ![Essay Generator](./img/essay.png)
 
 ---
 
