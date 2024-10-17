@@ -1,4 +1,4 @@
-# 🧠 AI-Powered Second Brain Project
+# 🧠 Second Brain AI
 
 This project is designed to help users manage and interact with their knowledge effectively, particularly through highlights from research papers, books, or any other documents. Users can generate research summaries, essays, and detailed insights based on specific topics. The project was demoed during a hackathon and you can find a video of the demo [here](https://youtube.com/your-demo-link).
 
@@ -11,7 +11,6 @@ This project is designed to help users manage and interact with their knowledge 
 4. [Technologies and Tools](#technologies-and-tools)
 5. [Setup](#setup)
 6. [Process](#process)
-7. [Code Examples](#code-examples)
 8. [Features](#features)
 9. [Status](#status)
 10. [Contact](#contact)
@@ -26,7 +25,7 @@ Key features include:
 - Detailed summary generation
 - Essay creation with user-defined word limits and formats
 
-The project was demoed during the TEDAI For Good Hackathon, focusing on leveraging AI for knowledge management.
+The project was demoed during the Rag-A-Thon, focusing on leveraging Agentic RAG and workflows.
 
 ---
 
@@ -45,7 +44,7 @@ Here are some visuals from the project.
 ---
 
 ## 🎥 Demo
-You can view a full demo of the project [on YouTube](https://youtube.com/your-demo-link).
+You can view a full project demo [on YouTube](https://youtube.com/your-demo-link).
 
 ---
 
@@ -64,11 +63,10 @@ The project leverages the following technologies and tools:
 ---
 
 ## ⚙️ Setup
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/second-brain-ai.git
 
+1. Run the project directly on Google Colab by following [this link to the Colab notebook](https://colab.research.google.com) and creating a copy of it.
 
+2. Alternatively, you can download the Jupyter notebook from this repository and run it locally. 
 
 
 ---
@@ -95,24 +93,6 @@ The project leverages the following technologies and tools:
 ### 5. **User Feedback Integration**:
    After generating responses (highlights, summaries, essays), users can provide feedback. This feedback loop helps refine future responses.
 
----
-
-## 🖥️ Code Examples
-
-### Extracting Named Entities:
-```python
-import spacy
-
-nlp = spacy.load("en_core_web_sm")
-
-def extract_entities(text):
-    doc = nlp(text)
-    return [(ent.text, ent.label_) for ent in doc.ents]
-
-df_highlights['entities'] = df_highlights['text'].apply(extract_entities)
-
-
-```
 
 
 ---
@@ -130,7 +110,8 @@ df_highlights['entities'] = df_highlights['text'].apply(extract_entities)
 
 ## 🚧 Status
 
-This project is currently in development. New features like direct export to Word and integration with other knowledge management tools are planned.
+This project is currently in its initial development phase. Future improvements will include agentic workflows, more efficient knowledge retrieval, and new innovations in AI. Features like direct export to Word and integration with other knowledge management tools are also planned for future updates. Stay tuned as I continue to enhance and expand the functionality!
+
 
 ---
 
