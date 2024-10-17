@@ -36,7 +36,7 @@ Here are some visuals from the project.
    ![Dashboard](https://via.placeholder.com/600x300)
    
 2. **Research Highlights Tab**  
-   ![Research Highlights](https://via.placeholder.com/600x300)
+   ![Research Highlights](./img/SummarySBAI.PNG)
    
 3. **Essay Generation Tab**  
    ![Essay Generator](https://via.placeholder.com/600x300)
