@@ -25,7 +25,7 @@ Key features include:
 - Detailed summary generation
 - Essay creation with user-defined word limits and formats
 
-The project was demoed during the Rag-A-Thon, focusing on leveraging Agentic RAG and workflows.
+The project was demoed during the Rag-A-Thon, focusing on leveraging Agentic RAG and workflows. Devepost link [here](https://devpost.com/software/second-brain-ai).
 
 ---
 
