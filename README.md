@@ -1,6 +1,6 @@
 # 🧠 Second Brain AI
 
-This project is designed to help users manage and interact with their knowledge effectively, particularly through highlights from research papers, books, or any other documents. Users can generate research summaries, essays, and detailed insights based on specific topics. The project was demoed during a hackathon and you can find a video of the demo [here](https://youtube.com/your-demo-link).
+This project is designed to help users manage and interact with their knowledge effectively, particularly through highlights from research papers, books, or any other documents. Users can generate research summaries, essays, and detailed insights based on specific topics. The project was demoed during a hackathon and you can find a demo video [here](https://youtu.be/h4xTXE_k1Mk).
 
 ---
 
@@ -42,7 +42,7 @@ Here are some visuals from the project.
 ---
 
 ## 🎥 Demo
-You can view a full project demo [on YouTube](https://youtube.com/your-demo-link).
+You can view a full project demo [on YouTube](https://youtu.be/h4xTXE_k1Mk).
 
 ---
 
