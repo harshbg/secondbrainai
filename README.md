@@ -18,7 +18,7 @@ This project is designed to help users manage and interact with their knowledge 
 ---
 
 ## 📜 General Info
-This project builds an interactive tool that allows users to create research summaries, essays, and relevant highlights using AI. By inputting a topic or section, users can retrieve structured information from a collection of highlights. It supports different essay formats, summary generation, and more, utilizing LlamaIndex for efficient querying and embedding techniques.
+This project builds an interactive tool that allows users to create research summaries, essays, and relevant highlights using AI. Users can retrieve structured information from a collection of highlights by inputting a topic or section. It supports different essay formats, summary generation, and more, utilizing LlamaIndex for efficient querying and embedding techniques.
 
 Key features include:
 - Topic-based research highlights
@@ -64,9 +64,9 @@ The project leverages the following technologies and tools:
 
 ## ⚙️ Setup
 
-1. Run the project directly on Google Colab by following [this link to the Colab notebook](https://colab.research.google.com) and creating a copy of it.
+1. Run the project directly on Google Colab by following [this link to the Colab notebook]([https://colab.research.google.com](https://colab.research.google.com/drive/15veD9VI-WAt0y6oqxyYkBBGY0Q_Ad69Q?usp=sharing)) and creating a copy of it.
 
-2. Alternatively, you can download the Jupyter notebook from this repository and run it locally. 
+2. Alternatively, you can download the Jupyter Notebook from this repository and run it locally. 
 
 
 ---
@@ -74,24 +74,21 @@ The project leverages the following technologies and tools:
 ## 📊 Process
 
 ### 1. **Data Collection**:
-   The highlights are sourced from Google Docs using the Google Docs API, allowing easy import of reading highlights, or uploaded manually into the system.
+   The highlights are sourced from Google Docs using the Google Docs API, allowing easy import of reading highlights or uploaded manually into the system.
 
 ### 2. **Data Preprocessing**:
    The raw text highlights undergo preprocessing using:
-   - SpaCy for text cleaning and Named Entity Recognition (NER).
+   - SpaCy is used for text cleaning and named entity recognition (NER).
    - Custom functions to clean and standardize the text.
 
 ### 3. **Querying with LlamaIndex**:
-   The LlamaIndex Query Engine is used to efficiently search through the document highlights. 
+   The LlamaIndex Query Engine is used to search through the document highlights efficiently. 
    It helps retrieve the most relevant information using text-based searches for research papers, summaries, or essays.
 
 ### 4. **Generating Summaries and Essays**:
    Based on the user's input, the system generates:
    - Summaries of specific topics within the text.
    - Custom essays using the processed highlights, following the user's preferences in style and length.
-
-### 5. **User Feedback Integration**:
-   After generating responses (highlights, summaries, essays), users can provide feedback. This feedback loop helps refine future responses.
 
 
 
@@ -110,13 +107,13 @@ The project leverages the following technologies and tools:
 
 ## 🚧 Status
 
-This project is currently in its initial development phase. Future improvements will include agentic workflows, more efficient knowledge retrieval, and new innovations in AI. Features like direct export to Word and integration with other knowledge management tools are also planned for future updates. Stay tuned as I continue to enhance and expand the functionality!
+This project is currently in its initial development phase. Future improvements will include agentic workflows, more efficient knowledge retrieval, and innovations in AI. Features like direct export to Word and integration with other knowledge management tools are also planned for future updates. Stay tuned as I continue to enhance and expand the functionality!
 
 
 ---
 
 ## 📧 Contact
 
-Created by [Harsh Gupta](https://www.linkedin.com/in/harshgupta). Feel free to contact me for any questions or collaboration opportunities.
+Created by [Harsh Gupta](https://www.linkedin.com/in/harshgupta). Please feel free to contact me if you have any questions or collaboration opportunities.
 
    
